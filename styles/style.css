@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 16px;
+  color: white;
+}
+
+body{
+  display: flex;
+}
+
+.left-side{
+  background-image: url("../img/forest.jpg");
+  width: 45%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  padding-top: 150px;
+  font-size: 1.5em;
+}
+
+.left-side h6{
+  font-size: 0.4em;
+  text-align: center;
+  margin-top: 300px;
+  opacity: 0.8;
+}
+
+.left-side img{
+  width: 100px;
+}
+
+.left-background{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0,0.4);
+}
+
+.right-side{
+  width: 55%;
+  height: 100vh;
+  background-color: #f5f3f0;
+  color: #000;
+}
+
+.text-base p{
+  font-weight: 700;
+  font-size: 1.1em;
+  margin-top: 20px;
+}
+
+.text-base{
+  width: 78%;
+  margin-top: 100px;
+  padding-left: 30px;
+}
+
+input{
+  display: block;
+  padding: 2px 5px;
+  border: 1px solid #E5E7EB;
+  box-shadow: 1px 1px 2px #E5E7EB ;
+  margin-bottom: 10px;
+}
+
+label{
+  font-size: .75em;
+  font-weight: 700;
+}
+
+h4{
+  margin-bottom: 10px;
+}
+
+.sign-form{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #fff;
+  width: 100%;
+  padding: 30px 30px;
+  margin-top: 40px;
+  box-sizing: 1px 1px 5px #000;
+}
+
+.left-side-form{
+  margin-right: 40px;
+}
+
+.right-side-form{
+  margin-top: 25px;
+}
+
+input:focus{
+  outline: 1px solid blue;
+  box-shadow: 1px 1px 2px blue;
+}
+
+input[type=password]:focus{
+  outline: 1px solid red;
+  box-shadow: 1px 1px 2px red;
+
+}
+
+button{
+  background-color: #596D48;
+  border: none;
+  color: white;
+  padding: 7px 30px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.button{
+  padding-left: 30px;
+}
+
+.button p{
+  font-size: .75em;
+}
+
+.button span{
+  color: #596D48;
+}
